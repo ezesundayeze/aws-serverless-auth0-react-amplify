@@ -1,0 +1,38 @@
+{
+  "paths": [
+    {
+      "name": "/private",
+      "lambdaFunction": "loginauth02d21515d",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST"
+        ]
+      },
+      "policyResourceName": "/private"
+    }
+  ],
+  "resourceName": "myapi",
+  "apiName": "myapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "loginauth02d21515d"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-loginauth0-dev-31529-authRole",
+    "unAuthRoleName": "amplify-loginauth0-dev-31529-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "loginauth02d21515d",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

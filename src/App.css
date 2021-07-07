@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  padding: 50px;
+
+}
+
+.LoginBox{
+  width: 50% !important;
+  background-color: pink;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: stroke;
+}
+
+.login {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-decoration-color: white;
+}

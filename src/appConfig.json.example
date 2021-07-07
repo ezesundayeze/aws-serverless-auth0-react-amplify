@@ -1,0 +1,8 @@
+{
+    "domain": "dev-8sbjj3b.us.auth0.com",
+    "clientID": "2Ew7slfKEzHPJ4Edst2iEfefe7dIry",
+    "scope": "openid username",
+    "redirectUri": "http://localhost:3000/",
+    "returnTo": "http://localhost:3000/",
+    "responseType": "token id_token"
+}
